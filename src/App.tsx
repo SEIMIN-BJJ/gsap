@@ -1,15 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import { BrowserRouter } from "react-router-dom";
+import MenuRoutes from "./routes/MenuRoutes";
+import "./App.scss";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit earum dignissimos est amet qui quasi, vitae facilis mollitia ex. Officia nemo repellendus blanditiis ab maiores quisquam odit consequatur eligendi labore.
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <MenuRoutes />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
