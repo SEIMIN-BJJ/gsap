@@ -2,7 +2,8 @@ import React from 'react'
 
 const MainSection = () => {
   return (
-    <div>MainSect</div>
+    <div>이제 이걸로
+    </div>
   )
 }
 
