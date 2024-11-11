@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainSection = () => {
   return (
-    <div>MainSection</div>
+    <div>MainSect</div>
   )
 }
 
