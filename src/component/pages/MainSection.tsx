@@ -5,7 +5,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #ccc;
+  background-color: #fff;
   padding: 20px;
 `;
 
@@ -19,7 +19,7 @@ const ProjectItem = styled.div`
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
   cursor: pointer;
   will-change: opacity, transform;
 `;
